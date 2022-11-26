@@ -49,7 +49,7 @@ if ($type == "del") {
   if ($array) {
     rsort($array); //修改日期倒序排序
     for ($j = $imgnums * $page;$j < ($imgnums * $page + $imgnums) && $j < $i;++$j) {
-        echo "<img src=" . $path . "/" . $array[$j] . " class=\"ckimg card-tu\">";
+        echo "<img src=" . $path . "/" . $array[$j] . " class=\"ckimg card-tu\"><br/>IP:".explode('_',$array[$j])[0];
     }
     $realpage = @ceil($i / $imgnums) - 1;
     $Prepage = max($page-1,0);
