@@ -1,0 +1,195 @@
+
+
+@font-face {
+    font-family: my;  
+    src:url("../font/my.otf"); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:my;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #cfcfcf;
+    min-width: 375px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.AD{
+    background: url(../img/ad_bg.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 190px;
+    margin: 15px auto;
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px #919191,
+                 -5px -5px 10px #ffffff;
+                 text-align: center;
+}
+
+.AD p{
+    font-size: 62px;
+        background: linear-gradient(145deg,#f0fff8,#f0fff8,#11007d, #f0fff8, #22b5ff, #f0fff8, #f0fff8);
+          -webkit-background-clip: text;
+          color: transparent;
+}
+
+.main{
+    width: 90%;
+    height:830px;
+    margin: 15px auto;
+}
+.Txt{
+    height: 110px;
+    float: left;
+    margin: 0px 8% 15px;
+    width: 84%;
+    overflow:hidden;
+}
+.CA{
+    width: 90%;
+    height:50px;
+    margin: 15px auto;
+}
+
+.mp{
+    position:sticky;
+    width: 190px;
+    height: 50px;
+    top: 90px;
+    left: 5px;
+}
+
+.mz{
+    position:relative;
+    top:-90px;
+    left: 55%;
+    width: 80px;
+    border-radius: 5px;
+    font-size: 14px;
+background: #cfcfcf;
+box-shadow: inset 2px 2px 3px #919191,
+            inset -2px -2px 3px #ffffff;
+            text-align: center;
+}
+
+.tx{
+    position: relative;
+    top:-99%;
+    left: 5%;
+    border-radius: 50px;
+    box-shadow:  5px 5px 10px #919191,
+                 -5px -5px 10px #ffffff;
+}
+
+.sc{
+    height: 180px;
+    float: left;
+    margin: 30px 8% 15px;
+    width: 84%;
+}
+.gg{
+    height: 280px;
+    float: left;
+    margin: 30px 8% 15px;
+    width: 84%;
+}
+
+.gg p,.sc p,.Txt p{
+    padding: 10px;
+    text-align: center;
+}
+
+.shuru{
+    border-radius: 5px;
+    width: 50%;
+    background: #cfcfcf;
+    box-shadow: inset 5px 5px 10px #919191,
+                inset -5px -5px 10px #ffffff;
+}
+
+.butt1{
+    margin: 15px 6%;
+    width: 38%;
+    border-radius: 5px;
+    background: linear-gradient(145deg, #bababa, #dddddd);
+    box-shadow:  5px 5px 10px #919191,
+                 -5px -5px 10px #ffffff;
+}
+
+.shiz{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin:15px 5%;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #bababa, #dddddd);
+    box-shadow:  5px 5px 10px #919191,
+                 -5px -5px 10px #ffffff;
+}
+.wzxx{
+    float: right;
+    width: 55%;
+    margin: 15px 4% 15px 0;
+    height: 100px;
+    text-align: center;
+}
+.ck{
+    width: 90%;
+    text-align: center;
+    margin: 15px auto;
+}
+.ckimg{
+    width: 80%;
+    margin: 15px 0;
+}
+
+.anniu{
+    width: 25%;
+    display: inline;
+    padding: 5px;
+    margin: 5px 10px;
+}
+
+.qkan{
+    float: left;
+     width: 30%;
+     margin:20px 35%;
+     padding: 5px;
+}
+.back{
+ position:sticky;
+    width: 50px;
+    top: 50px;
+    left: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.tc{
+    float: left;
+    width:70%;
+    margin:15px 15%;
+    padding: 10px 0;
+}
+
+.card-tu{
+    border-radius: 10px;
+    background: linear-gradient(145deg, #bababa, #dddddd);
+    box-shadow:  5px 5px 10px #919191,
+                 -5px -5px 10px #ffffff;
+}
+
+
+.card-ao{
+    border-radius: 10px;
+    background: #cfcfcf;
+    box-shadow: inset 5px 5px 10px #919191,
+                inset -5px -5px 10px #ffffff;
+}
