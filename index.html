@@ -22,8 +22,8 @@
     <div class="main card-tu">
         <div class="sc card-ao">
             <p>生成分享链接</p>
-            <p>密钥：<input type="text" class="shuru" id="myid" placeholder="私人密钥"></p>
-            <p>跳转：<input type="text" class="shuru" id="url" value="http://qq.com"></p>
+            <p>密钥：<input type="text" class="shuru" id="myid" onKeyUp="this.value=this.value.replace(/[^\w_]/g,'');" placeholder="私人密钥"></p>
+            <p>跳转：<input type="text" class="shuru" id="url" onKeyUp="this.value=this.value.replace(/[^\w_/&\?:.]/g,'');" value="http://qq.com"></p>
             <input type="button" class="butt1" onclick="ckpt();" value="查看照片"></a><input type="button" class="butt1" onclick="create();" value="生成链接">
         </div>
         <div class="Txt card-ao">
