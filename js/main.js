@@ -20,7 +20,7 @@ function  create() {
         kd.href='';
     }else if(myid.value.replace(/[\a-\z\A-\Z0-9\_]+/g,'')==""){
         var base64Str = Base64.encode(myid.value);
-       var http1='https://marr.xn--sxw.fun/marr.php?id='+base64Str+'&url='+url.value;
+       var http1='https://'+window.location.host+'/marr.php?id='+base64Str+'&url='+url.value;
     kd.innerText = http1;
     kd.href=http1;
     bt.innerText = "链接生成成功 已自动复制";
